@@ -1,0 +1,27 @@
+/**
+* Descendant combinator selector
+*/
+li .A {
+    color: red;
+}
+
+/**
+* Child selector
+*/
+span>p {
+    color: goldenrod;
+}
+
+/**
+* Descendant combinator selector
+*/
+li .B {
+    color: blue;
+}
+/**
+* Adjacent sibling selector
+*/
+h2+p{
+    color:teal;
+    text-align: center;
+}
